@@ -1,0 +1,14 @@
+<script>
+
+    //(f-i)/g
+    function values(initial, final, gallons)
+    {
+    var difference = (final-initial);
+    var result = (difference/gallons);
+    console.log ("The result is" + result);
+    }
+    var prompt1 = prompt ("Please give me an initial value");
+    var prompt2 = prompt ("Please give me an final value");
+    var prompt3 = prompt ("Please give me the number of gallons");
+    values(prompt1, prompt2, prompt3);
+</script>
