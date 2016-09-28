@@ -1,0 +1,58 @@
+<script>
+    
+var gradePoints = 0;
+var credits = 0;
+    
+var FY = prompt("Ask how many full year classes do you have");
+var APoints = prompt ("In how many of them do you have A");
+var BPoints = prompt ("In how many of them do you have B");
+var CPoints = prompt ("In how many of them do you have C");
+var DPoints = prompt ("In how many of them do you have D");
+var FPoints = prompt ("In how many of them do you have F");
+       
+    {
+        var AF = (APoints*1*4)
+        var BF = (BPoints*1*3)
+        var CF = (CPoints*1*2) 
+        var DF = (DPoints*1*1)
+        var FgradePoints = gradePoints + AF + BF + CF + DF;
+        var Fcredits = credits + FY*1; 
+    }
+    
+var SY = prompt("Ask how many semester classes do you have");
+var ASPoints = prompt ("In how many of them do you have A");
+var BSPoints = prompt ("In how many of them do you have B");
+var CSPoints = prompt ("In how many of them do you have C");
+var DSPoints = prompt ("In how many of them do you have D");
+var FSPoints = prompt ("In how many of them do you have F");
+
+    {
+          var AS = ASPoints*.5*4
+          var BS = BSPoints*.5*3
+          var CS = CSPoints*.5*2
+          var DS = DSPoints*.5*1
+          var SgradePoints = gradePoints + AS + BS + CS + DS;
+          var Scredits = credits + SY*.5;
+    }
+
+var QY = prompt("Ask how many quarter classes do you have");
+var AQPoints = prompt("In how many of them do you have A");
+var BQPoints = prompt("In how many of them do you have B");
+var CQPoints = prompt("In how many of them do you have C");
+var DQPoints = prompt("In how many of them do you have D");
+var FQPoints = prompt("In how many of them do you have F");
+
+    {
+        var AQ = AQPoints*.25*4
+        var BQ = BQPoints*.25*3
+        var CQ = CSPoints*.25*2
+        var DQ = DQPoints*.25*1
+        var Qcredits = credits + QY*.25;
+        var QgradePoints = gradePoints + AQ + BQ + CQ + DQ;
+    }
+
+    {
+var GPA = ((FgradePoints + SgradePoints + QgradePoints)/(Fcredits + Scredits + Qcredits))
+        console.log("Your GPA is"+ GPA);
+    }
+</script>
