@@ -1,0 +1,62 @@
+<html>
+<head></head>
+<body>
+<canvas id="myCanvas" width="500" height="500"></canvas>
+<script>
+     var canvas = document.getElementById("myCanvas");
+     var ctx = canvas.getContext("2d");
+
+    
+    
+    ctx.beginPath();
+    ctx.moveTo(0,10);
+    ctx.lineTo(50,12);
+    ctx.lineTo(50,37);
+    ctx.lineTo(0,35);
+    ctx.fill();
+    
+    ctx.beginPath();
+    ctx.fillStyle="#C0C0C0";
+    ctx.moveTo(0,35);
+    ctx.lineTo(50,37);
+    ctx.lineTo(50,62);
+    ctx.lineTo(0,60);
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.fillStyle="black";
+    ctx.moveTo(0,60);
+    ctx.lineTo(50,62);
+    ctx.lineTo(50,87);
+    ctx.lineTo(0,85);
+    ctx.fill();
+    
+    ctx.beginPath();
+    ctx.fillStyle="#C0C0C0";
+    ctx.moveTo(0,85);
+    ctx.lineTo(50,87);
+    ctx.lineTo(50,110);
+    ctx.lineTo(0,108);
+    ctx.fill();
+    
+     
+    ctx.beginPath();
+    ctx.fillStyle="#C0C0C0";
+    ctx.moveTo(50,5);
+    ctx.lineTo(100,7);
+    ctx.lineTo(100,57);
+    ctx.lineTo(50,55);
+    ctx.fill();
+   
+    
+    ctx.beginPath();
+    ctx.fillStyle="black";
+    ctx.moveTo(50,65);
+    ctx.lineTo(100,67);
+    ctx.lineTo(100,117);
+    ctx.lineTo(50,115);
+    ctx.fill();
+    
+</script>
+<body>
+</html>
