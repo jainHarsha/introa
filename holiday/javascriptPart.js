@@ -1,5 +1,5 @@
 var imageArray =[
-   "https://cbsdallas.files.wordpress.com/2012/11/the-rockefeller-center-christmas-tree-new-york-ny.jpg?w=600&h=360&crop=1", "http://25.media.tumblr.com/710f752495613bf94569626f79e6124f/tumblr_mxzf3v2blM1r5k9koo5_r3_250.gif",
+   "https://cbsdallas.files.wordpress.com/2012/11/the-rockefeller-center-christmas-tree-new-york-ny.jpg?w=600&h=360&crop=1", "jetsboy.gif",
     "http://image.mogoroom.com/mogoroom/2016-07/cms/2/2/37772/37772_1467774066082.gif",    "http://68.media.tumblr.com/31108c682ca373f80ba3add88b0f7618/tumblr_meqktelMu31qj8xp7o6_250.gif",
     "https://cdn-media-2.lifehack.org/wp-content/files/2014/12/xmass-tree.jpg",
     "https://thefw.com/files/2012/12/tumblr_lwqnl2Nhw51qzc6foo1_500.gif",
