@@ -1,17 +1,17 @@
 var imageArray =[
-   "https://cbsdallas.files.wordpress.com/2012/11/the-rockefeller-center-christmas-tree-new-york-ny.jpg?w=600&h=360&crop=1", "jetsboy.gif",
-    "http://image.mogoroom.com/mogoroom/2016-07/cms/2/2/37772/37772_1467774066082.gif",    "http://68.media.tumblr.com/31108c682ca373f80ba3add88b0f7618/tumblr_meqktelMu31qj8xp7o6_250.gif",
-    "https://cdn-media-2.lifehack.org/wp-content/files/2014/12/xmass-tree.jpg",
-    "https://thefw.com/files/2012/12/tumblr_lwqnl2Nhw51qzc6foo1_500.gif",
+   "rockefeller.jpg", "jetsboy.gif",
+    "HA.gif", "falling.gif",
+    "xmass-tree.jpg",
+ "mickey.gif",
     "snowflake1.jpg", 
     "tenor.gif",
  "santaa.gif",    
     "santa.gif",
-"http://thefw.com/files/2012/12/tumblr_md1n9hUPPN1rewv0co1_500.gif",
+"Home.gif",
     "fail.gif",
-    "http://www.savvygirltravel.com/wp-content/uploads/2016/10/a-christmas-gift.jpg",
+    "present.jpg",
     "sled.gif",
-    "snowtree.jpg","http://bestanimations.com/Holidays/Christmas/merrychristmas/merry-christmas-greeting-gif-6.gif", "ornaments.jpg","https://45.media.tumblr.com/b31727c72d392947b42705859bdb0993/tumblr_nyjz3jDNlq1r76to2o1_500.gif",  ];
+ "snowtree.jpg","fire.gif", "ornaments.jpg","home2.gif",  ];
 var currentIndex = 0
 
 function renderImage(){
